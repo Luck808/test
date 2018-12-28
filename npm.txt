@@ -1,0 +1,7 @@
+npm config delete proxy 
+npm config delete registry 
+npm set registry http://10.237.161.211:8081/repository/npm-public/
+npm set ca null
+npm config set python "c:\python27"
+npm cache verify
+https://dlhpvva0002.dir.svc.accenture.com/smsf.mailsensor.ui/home 

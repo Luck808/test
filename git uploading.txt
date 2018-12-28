@@ -1,0 +1,8 @@
+		git uploading
+1.git clone /repository address/
+1.1git remote add origin https://github.com/OliveKong/poster.git
+2.generate document/ in document add upload document
+3.cd /repository name/
+4.git add . 
+5.git commit -m ""
+6.git push -u origin master

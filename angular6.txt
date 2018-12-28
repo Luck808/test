@@ -1,0 +1,47 @@
+angular6
+1.
+code.js npm / install
+vs code / install
+npm install -g @angular/cli / install cli
+ng new  / create project
+ng serve  / start project
+2.
+decorator
+writer less code and reuse code
+.component.ts
+import {decorat} from './bean'
+@decorat({
+	template:"<b>html</b>",
+	css:'css1'
+})
+export class A{}
+.bean.ts
+export function decorat(param){
+  return function(target){
+   	target.prototype.template=param.template;
+   	target.prototype.css = param.css;
+  }
+}
+3.
+component
+ng generate component
+update module.ts import and component.html
+4.
+css style
+(1)styleUrls: ['./header.component.css']
+(2)in app.css/ @import 'header.component.css'
+   in header.css/ :host/deep
+(3)npm i bootstrap -s install bootstrap frame
+   <button type="button" class="btn btn-primary">button</button>
+5.
+father and son communicate
+ son component.html
+ <button type="button" id="adc" class="btn btn-primary"(click)='dian($event)'>button</button>
+ son component.ts
+ import eventemitter input output
+ (1)son-father son.h-son.t-father.h-father.t
+ (1)father-son father.h-son.t
+ (2)father-son father.h-father.t
+ (3)father-son father.t-father.h-son.t
+
+LZQ

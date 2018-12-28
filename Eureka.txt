@@ -1,0 +1,34 @@
+﻿http://10.237.161.208:10011/ //access
+
+PS C:\Users\zhongqiang.a.li\IdeaProjects\my-sample\sample-starter\target> java -jar .\sample-starter.jar jar start
+
+SPRING INITIALIZR swegger  generate springboot
+
+\\10.254.161.197 share document
+ 
+http://patorjk.com/software/taag/  springbootlogo generate
+
+innersource innerproject
+
+https://git-scm.com/book/zh/v2 git
+
+https://www.primefaces.org/primeng/#/ angular
+
+https://gitee.com/didispace/SpringBoot-Learning  springboot
+
+https://tianlei.jiang@innersource.accenture.com/scm/smsf/smsf-transaction-service.git 
+
+https://tianlei.jiang@innersource.accenture.com/scm/smsf/3100_design_application.git 
+ 
+C:\Program Files\Avecto\Privilege Guard Client PGProgramsUtil 
+
+https://www.primefaces.org
+
+https://innersource.accenture.com/projects/SMSF/repos/smsf-authority/browse?at=refs%2Fheads%2Ffeature%2Fswagger-sync
+
+请连接下面的MySQL数据库:
+IP:10.237.161.213
+端口: 3306
+用户名:user_dev
+密码: Zaq_2wsx
+数据库:demo
