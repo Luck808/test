@@ -1,4 +1,4 @@
-angular6
+﻿angular6
 1.
 code.js npm / install
 vs code / install
@@ -44,4 +44,93 @@ father and son communicate
  (2)father-son father.h-father.t
  (3)father-son father.t-father.h-son.t
 
-LZQ
+angular项目文件概览
+src下
+app.component.ts/html/css/spec.ts
+使用html模板 css样式 单元测试定义app component组件
+app.module.ts 
+声明app component
+assets 
+存放图片等任何东西 在构建应用时 他们全都会拷贝到发布包中
+environments
+API端点地址
+favicon
+存放网站图标
+index
+访问网站看到的主页面的HTML文件
+main
+应用的主要入口点
+polyfills
+不同的浏览器对web标准的支持程度不同 poly fills把不同点进行标准化 使用core.js zone.js
+styles
+全局样式
+test
+单元测试
+tsconfig
+typescript编译器配置文件 tsconfig.app.json是为angular应用准备的 而tsconfig.spec.json是为单元测试准备的
+src同级
+e2e
+end to end 端到端测试 应用测试tsconfig.json
+node_modules
+node.js创建了这个文件夹 并且把package.json中列举的所有第三方模块都放在其中
+angular-cli.json
+angular cli的配置文件
+editorconfig
+给你的编辑器看的一个简单配置文件
+gitignore 
+一个git的配置文件，用来确保某些自动生成的文件不会被提交到源码控制系统中
+karma.conf.js
+给karma的单元测试配置，当运行ng test时会用到它
+package.json
+npm配置文件 其中列出了项目使用到的第三方依赖包，你还可以在这里添加自己的自定义脚本
+portractor.conf.js
+给protractor使用的端到端测试配置文件 当运行 ng e2e的时候会用到它
+readme.md
+项目的基础文档
+tslint.json 
+给tslint和codelyzer用的配置信息 当运行ng lint时会用到
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

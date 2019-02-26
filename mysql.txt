@@ -1,0 +1,12 @@
+﻿mysql cmd命令使用
+cd 进入mysql安装bin目录下
+mysql -uhello -pworld -h192.168.1.88 -P3306 -Dmysql_oa
+
+mysql -u用户名 -p密码 -h远程数据库IP地址 -P端口 -D数据库名
+show databases;
+use 数据库;
+show tables;
+select*from demo;
+set charset gbk;
+set character_set_client=gbk;告诉我客户端这边的文字编码
+set character_set_results=gbk; 告诉mysql希望返回的结果集编码
